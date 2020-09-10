@@ -86,6 +86,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
+# Treble
+BOARD_VNDK_VERSION := current
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
