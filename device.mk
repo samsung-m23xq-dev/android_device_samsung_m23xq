@@ -161,6 +161,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# FastCharging
+PRODUCT_PACKAGES += \
+     vendor.lineage.fastcharge@1.0-service.m23xq
+
 # Gnss
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
