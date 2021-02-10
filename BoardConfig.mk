@@ -128,6 +128,9 @@ TARGET_USES_MKE2FS := true
 # Treble
 BOARD_VNDK_VERSION := current
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
