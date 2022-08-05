@@ -260,6 +260,10 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.samsung \
     lights.lito
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service.sdm710
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
