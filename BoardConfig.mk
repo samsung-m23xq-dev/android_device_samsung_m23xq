@@ -75,7 +75,8 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_m23xq
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_m23xq
+TARGET_RECOVERY_DEVICE_MODULES := libinit_m23xq
 
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 2
