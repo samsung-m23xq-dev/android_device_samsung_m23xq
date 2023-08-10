@@ -74,6 +74,9 @@ LOC_HIDL_VERSION := 4.0
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_m23xq
+
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_KERNEL_BASE := 0x00000000

@@ -17,7 +17,7 @@ $(call inherit-product, device/samsung/m23xq/device.mk)
 PRODUCT_DEVICE := m23xq
 PRODUCT_NAME := lineage_m23xq
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-E236B
+PRODUCT_MODEL := SM-E236
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
