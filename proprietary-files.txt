@@ -1892,8 +1892,6 @@ vendor/lib/libpadm.so
 vendor/lib/libperfioctl.so
 vendor/lib/libpredeflicker_native.so
 vendor/lib/libprofileparamstorage.so
-vendor/lib/libprotobuf-cpp-full-3.9.1.so
-vendor/lib/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib/libqcbor.so
 vendor/lib/libqcc_file_agent.so
 vendor/lib/libqcwrappercommon.so
@@ -2105,8 +2103,6 @@ vendor/lib64/libopenvx.so
 vendor/lib64/libpadm.so
 vendor/lib64/libperfioctl.so
 vendor/lib64/libprofileparamstorage.so
-vendor/lib64/libprotobuf-cpp-full-3.9.1.so
-vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqcc_file_agent.so
 vendor/lib64/libqcwrappercommon.so

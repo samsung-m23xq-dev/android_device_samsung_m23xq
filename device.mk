@@ -181,6 +181,9 @@ PRODUCT_PACKAGES += \
     libloc_core \
     libgnss
 
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
