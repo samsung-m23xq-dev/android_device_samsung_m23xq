@@ -949,12 +949,6 @@ system_ext/lib64/vendor.qti.latencyaidlservice-V1-ndk.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
-# Lights
-vendor/bin/hw/vendor.samsung.hardware.light-service
-vendor/lib/hw/lights.lito.so
-vendor/lib64/hw/lights.lito.so
-vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so
-
 # Listen
 vendor/lib/libadpcmdec.so
 vendor/lib/libgcs-calwrapper.so

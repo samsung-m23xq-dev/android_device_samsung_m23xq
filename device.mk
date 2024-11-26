@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
     libsdmutils \
     libtinyxml \
     libvulkan \
-    memtrack.msmnile \
+    memtrack.lito \
     vendor.display.config@1.5 \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0 \
@@ -105,6 +105,11 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     libipanat \
     liboffloadhal
+
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.samsung \
+    lights.lito
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
