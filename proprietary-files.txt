@@ -59,7 +59,6 @@ vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libtinycompress.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libaudioeffectoffload.so
-vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libaudiosaplus_sec.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
@@ -78,7 +77,6 @@ vendor/lib64/libqtigef.so
 vendor/lib64/libtinycompress.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libaudioeffectoffload.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libaudiosaplus_sec.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
@@ -97,67 +95,18 @@ vendor/etc/audconf/OPEN/Speaker_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFile.qwsp
 
 # Audio-Hardware
-system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
-system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
-vendor/bin/hw/android.hardware.audio.service
-vendor/etc/init/android.hardware.audio.service.rc
-vendor/lib/android.hardware.audio.common-util.so
-vendor/lib/android.hardware.audio.common@2.0-util.so
-vendor/lib/android.hardware.audio.common@4.0-util.so
-vendor/lib/android.hardware.audio.common@5.0-util.so
-vendor/lib/android.hardware.audio.common@6.0-util.so
-vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib/hw/android.hardware.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.audio@4.0-impl.so
-vendor/lib/hw/android.hardware.audio@5.0-impl.so
-vendor/lib/hw/android.hardware.audio@6.0-impl.so
-vendor/lib/hw/audio.primary.default.so
-vendor/lib/hw/audio.primary.lito.so
-vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.sec_primary.default.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
-vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vendor.samsung.hardware.audio@1.0.so
-vendor/lib64/android.hardware.audio.common-util.so
-vendor/lib64/android.hardware.audio.common@2.0-util.so
-vendor/lib64/android.hardware.audio.common@4.0-util.so
-vendor/lib64/android.hardware.audio.common@5.0-util.so
-vendor/lib64/android.hardware.audio.common@6.0-util.so
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio@6.0-impl.so
-vendor/lib64/hw/audio.primary.default.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.sec_primary.default.so
-vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
 # Bluetooth
-system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
-system_ext/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/bluetooth_audio_policy_configuration.xml
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
@@ -180,7 +129,6 @@ vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so
 vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so
 vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
@@ -1107,7 +1055,6 @@ vendor/lib64/hw/lights.lito.so
 vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so
 
 # Listen
-vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
@@ -2428,11 +2375,9 @@ vendor/lib/com.qti.feature2.stub.so
 vendor/lib/com.qti.feature2.swmf.so
 vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libapex_cmn.so
 vendor/lib/libapex_utils.so
 vendor/lib/libavservices_minijail.so
-vendor/lib/libbatterylistener.so
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
 vendor/lib/libbeautyshot.arcsoft.so
@@ -2448,14 +2393,12 @@ vendor/lib/libcodec2_simple_component.so
 vendor/lib/libcodec2_soft_common.so
 vendor/lib/libcodec2_vndk.so
 vendor/lib/libcodecsolutionhelper_vendor.so
-vendor/lib/libcomprcapture.so
 vendor/lib/libDeviceInfoProvider.so
 vendor/lib/libdiagjni.so
 vendor/lib/libdisplayconfig.qti.so
 vendor/lib/libdisplayskuutils.so
 vendor/lib/libengine_did.so
 vendor/lib/libevent_finder.uniplugin@1.0.so
-vendor/lib/libexthwplugin.so
 vendor/lib/libFaceService.so
 vendor/lib/libface_landmark.arcsoft.so
 vendor/lib/libfastcrc.so
@@ -2469,10 +2412,8 @@ vendor/lib/libgralloc.qti.so
 vendor/lib/libgrallocusage.so
 vendor/lib/libhandgesture.arcsoft.so
 vendor/lib/libhand_interaction.uniplugin@1.0.so
-vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libheifcapture.so
-vendor/lib/libhfp.so
 vendor/lib/libhidltransport.so
 vendor/lib/libhigh_dynamic_range_bokeh.so
 vendor/lib/libHprVisualEffect.so
@@ -2541,14 +2482,12 @@ vendor/lib/libsnaace.so
 vendor/lib/libsnamrnb.so
 vendor/lib/libsnamrwb.so
 vendor/lib/libsnap_vndk.so
-vendor/lib/libsndmonitor.so
 vendor/lib/libsns_registry_skel.so
 vendor/lib/libsocial_image_enhancement.uniplugin@1.0.so
 vendor/lib/libsoc_helper.so
 vendor/lib/libsoc_helper_jni.so
 vendor/lib/libspatializerparamstorage.so
 vendor/lib/libspeakercalibration.so
-vendor/lib/libspkrprot.so
 vendor/lib/libssengine.uniplugin@1.0.so
 vendor/lib/libstagefright_amrnb_common.so
 vendor/lib/libstagefright_bufferpool@2.0.1.so
