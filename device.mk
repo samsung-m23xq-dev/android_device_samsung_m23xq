@@ -208,6 +208,9 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Overlays
+PRODUCT_PACKAGES += \
+    WifiResOverlayM23XQ
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Partitions
