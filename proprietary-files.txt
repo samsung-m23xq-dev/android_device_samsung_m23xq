@@ -1640,6 +1640,11 @@ vendor/lib64/libtime_genoff.so
 # UBWC
 vendor/lib/libstreamparser.so
 
+# USB
+vendor/bin/hw/android.hardware.usb@1.1-service.wahoo
+vendor/etc/init/android.hardware.usb@1.1-service.wahoo.rc
+-vendor/etc/vintf/manifest/android.hardware.usb@1.1-service.wahoo.xml
+
 # Vibrator
 vendor/lib/hw/vibrator.default.so
 vendor/lib64/hw/vibrator.default.so
