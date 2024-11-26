@@ -1639,7 +1639,6 @@ vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # WFD
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
-vendor/lib/libwfdaac_vendor.so
 
 # WiFi
 vendor/bin/cnss-daemon
