@@ -207,6 +207,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
