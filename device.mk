@@ -139,6 +139,10 @@ PRODUCT_PACKAGES += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.2.vendor
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
