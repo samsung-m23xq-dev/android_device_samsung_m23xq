@@ -1415,7 +1415,6 @@ vendor/bin/hw/vendor.samsung.hardware.tlc.kg@1.1-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.mpos_tui@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service
-vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
 vendor/bin/vendor.samsung.hardware.security.engmode@1.0-service
 vendor/bin/vendor.samsung.hardware.security.proca@2.0-service
 vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
@@ -1443,7 +1442,6 @@ vendor/etc/init/vendor.samsung.hardware.tlc.kg@1.1-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.mpos_tui@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.ucm@2.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc
 vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/permissions/vendor.samsung.hardware.telephony.gsm.xml
 vendor/etc/seccomp_policy/samsung.software.media.c2-base-policy
@@ -1458,8 +1456,6 @@ vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg@1.1-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.mpos_tui@1.0-manifest.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi.hostapd.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml
 vendor/lib/libBeauty_v4.camera.samsung.so
 vendor/lib/libEventFinder.camera.samsung.so
 vendor/lib/libexifa.camera.samsung.so
@@ -1542,13 +1538,6 @@ vendor/lib64/vendor.samsung.hardware.tlc.payment@1.0-impl.so
 vendor/lib64/vendor.samsung.hardware.tlc.payment@1.0.so
 vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0-impl.so
 vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0.so
-vendor/lib64/vendor.samsung.hardware.wifi.hostapd@3.0.so
-vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.0.so
-vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.1.so
-vendor/lib64/vendor.samsung.hardware.wifi@2.0.so
-vendor/lib64/vendor.samsung.hardware.wifi@2.1.so
-vendor/lib64/vendor.samsung.hardware.wifi@2.2.so
-vendor/lib64/vendor.samsung.hardware.wifi@2.3.so
 
 # Seccam
 vendor/lib/vendor.qti.hardware.seccam@1.0.so
@@ -1655,12 +1644,7 @@ vendor/lib/libwfdaac_vendor.so
 # WiFi
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
-vendor/bin/hw/android.hardware.wifi@1.0-service
-vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/android.hardware.wifi@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
--vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
--vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
 vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
 vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
 vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
@@ -2069,7 +2053,6 @@ vendor/lib/libvideobeauty_interface.so
 vendor/lib/libVkLayer_q3dtools.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvpx.so
-vendor/lib/libwifi-hal-ctrl.so
 vendor/lib/libwifi-hal.so
 vendor/lib/libwpa_drv_oem.so
 vendor/lib/lib_SoundBooster_ver1050.so
@@ -2283,7 +2266,6 @@ vendor/lib64/libvideobeauty_interface.so
 vendor/lib64/libVkLayer_q3dtools.so
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libvkservice.so
-vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/libwpa_drv_oem.so
 vendor/lib64/libwsmd_functions.so
 vendor/lib64/lib_SoundBooster_ver1050.so
