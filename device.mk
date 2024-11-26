@@ -160,5 +160,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/m23xq/m23xq-vendor.mk)
