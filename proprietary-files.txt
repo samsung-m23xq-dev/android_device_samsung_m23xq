@@ -1995,7 +1995,6 @@ vendor/lib/libqcbor.so
 vendor/lib/libqcc_file_agent.so
 vendor/lib/libqcwrappercommon.so
 vendor/lib/libqdma_file_agent.so
-vendor/lib/libqti_vndfwk_detect.so
 vendor/lib/librecordalive.so
 vendor/lib/libsaiv_BeautySolutionVideo.so
 vendor/lib/libsavsac.so
@@ -2076,7 +2075,6 @@ vendor/lib/libvideobeauty.uniplugin@1.0.so
 vendor/lib/libvideobeauty_capture.uniplugin@1.0.so
 vendor/lib/libvideobeauty_interface.so
 vendor/lib/libVkLayer_q3dtools.so
-vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvpx.so
 vendor/lib/libwifi-hal-ctrl.so
@@ -2213,7 +2211,6 @@ vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqcc_file_agent.so
 vendor/lib64/libqcwrappercommon.so
-vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/libreffeature.so
 vendor/lib64/libril_sem.so
 vendor/lib64/librmsclib1.so
@@ -2294,7 +2291,6 @@ vendor/lib64/libvideobeauty_interface.so
 vendor/lib64/libVkLayer_q3dtools.so
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libvkservice.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/libwpa_drv_oem.so
 vendor/lib64/libwsmd_functions.so
