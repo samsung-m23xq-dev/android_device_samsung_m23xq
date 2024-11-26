@@ -120,6 +120,10 @@ PRODUCT_PACKAGES += \
     libcodec2_hidl@1.1.vendor \
     libcodec2_vndk.vendor
 
+# Net
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
