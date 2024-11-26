@@ -209,6 +209,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlayM23XQ \
     WifiResOverlayM23XQ
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
