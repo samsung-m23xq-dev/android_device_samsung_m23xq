@@ -1961,7 +1961,6 @@ vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib/libapex_cmn.so
 vendor/lib/libapex_utils.so
-vendor/lib/libavservices_minijail.so
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
 vendor/lib/libbeautyshot.arcsoft.so
@@ -1971,11 +1970,8 @@ vendor/lib/libcdfw.so
 vendor/lib/libcdfw_remote_api.so
 vendor/lib/libchilog.so
 vendor/lib/libcirrusspkrprot.so
-vendor/lib/libcodec2_hidl@1.0.so
-vendor/lib/libcodec2_hidl@1.1.so
 vendor/lib/libcodec2_simple_component.so
 vendor/lib/libcodec2_soft_common.so
-vendor/lib/libcodec2_vndk.so
 vendor/lib/libcodecsolutionhelper_vendor.so
 vendor/lib/libDeviceInfoProvider.so
 vendor/lib/libdiagjni.so
@@ -2164,8 +2160,6 @@ vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
-vendor/lib64/libavservices_minijail.so
-vendor/lib64/libavservices_minijail_vendor.so
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 vendor/lib64/libbeautyshot.arcsoft.so
@@ -2174,8 +2168,6 @@ vendor/lib64/libcacertclient.so
 vendor/lib64/libcdfw.so
 vendor/lib64/libcdfw_remote_api.so
 vendor/lib64/libchilog.so
-vendor/lib64/libcodec2_hidl@1.0.so
-vendor/lib64/libcodec2_hidl@1.1.so
 vendor/lib64/libcodec2_sec_aacdec.so
 vendor/lib64/libcodec2_sec_aacenc.so
 vendor/lib64/libcodec2_sec_amrnbdec.so
@@ -2190,7 +2182,6 @@ vendor/lib64/libcodec2_simple_component.so
 vendor/lib64/libcodec2_soft_ac4dec.so
 vendor/lib64/libcodec2_soft_common.so
 vendor/lib64/libcodec2_soft_eac3dec.so
-vendor/lib64/libcodec2_vndk.so
 vendor/lib64/libcodecsolutionhelper_vendor.so
 vendor/lib64/libdeccfg.so
 vendor/lib64/libDeviceInfoProvider.so
