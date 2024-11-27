@@ -246,6 +246,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service.m23xq-libperfmgr
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor
