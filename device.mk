@@ -163,6 +163,24 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Gnss
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.1-impl-qti \
+    android.hardware.gnss@2.1-service-qti \
+    android.hardware.gnss@2.1.vendor \
+    gps.conf \
+    flp.conf \
+    gnss_antenna_info.conf \
+    libloc_pla_headers \
+    liblocation_api_headers \
+    libgps.utils_headers \
+    liblocation_api \
+    libgps.utils \
+    libbatching \
+    libgeofencing \
+    libloc_core \
+    libgnss
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \

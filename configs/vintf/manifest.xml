@@ -224,11 +224,6 @@
         <transport>hwbinder</transport>
         <fqname>@2.1::ISehBluetoothAudioProvidersFactory/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.gnss</name>
-        <transport>hwbinder</transport>
-        <fqname>@2.0::ISehGnss/default</fqname>
-    </hal>
     <hal format="aidl">
         <name>vendor.samsung.hardware.media.converter</name>
         <fqname>ISehColorConverterStore/default</fqname>
