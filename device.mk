@@ -287,7 +287,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.ramdisk \
     init.m23xq.rc \
-    init.qcom.factory.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.qti.ufs.rc \
