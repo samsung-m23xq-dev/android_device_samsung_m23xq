@@ -255,6 +255,7 @@ PRODUCT_PACKAGES += \
     SettingOverlayM23XQ \
     SystemUIOverlayM23XQ \
     TelephonyOverlayM23XQ \
+    TetheringOverlayM23XQ \
     WifiResOverlayM23XQ
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
