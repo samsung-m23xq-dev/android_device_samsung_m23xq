@@ -124,6 +124,8 @@ ifeq ($(PRODUCT_SYSTEM_PARTITIONS_FILE_SYSTEM_TYPE),ext4)
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 endif
 
+BOARD_USES_METADATA_PARTITION := true
+
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := lito
