@@ -213,6 +213,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayM23XQ \
+    FrameworksResOverlayM23XQ \
+    SystemUIOverlayM23XQ \
+    TelephonyOverlayM23XQ \
     WifiResOverlayM23XQ
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
