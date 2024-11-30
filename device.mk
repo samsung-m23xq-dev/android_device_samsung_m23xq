@@ -7,6 +7,9 @@
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+
 # File System
 ifeq ($(WITH_GMS),true)
 PRODUCT_SYSTEM_PARTITIONS_FILE_SYSTEM_TYPE ?= erofs
