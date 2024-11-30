@@ -160,6 +160,7 @@ persist.vendor.radio.atfwd.start=true
 persist.vendor.radio.enableadvancedscan=true
 ro.radio.noril=no
 ro.telephony.default_cdma_sub=0
+persist.vendor.vonr_setting_support=1
 
 # USB
 vendor.usb.diag.func.name=diag
