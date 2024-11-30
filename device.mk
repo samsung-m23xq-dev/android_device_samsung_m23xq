@@ -86,7 +86,6 @@ PRODUCT_PACKAGES += \
     audio.primary.default \
     audio.primary.lito \
     audio.r_submix.default \
-    audio.sec_primary.default \
     audio.usb.default
 
 PRODUCT_PACKAGES += \
@@ -138,7 +137,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libsdmcore \
     libsdmutils \
@@ -271,7 +269,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayM23XQ \
     FrameworksResOverlayM23XQ \
-    SettingOverlayM23XQ \
+    SettingsOverlayM23XQ \
     SystemUIOverlayM23XQ \
     TelephonyOverlayM23XQ \
     TetheringOverlayM23XQ \
