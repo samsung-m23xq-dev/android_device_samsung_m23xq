@@ -857,12 +857,10 @@ vendor/lib/libc2dcolorconvert.so
 vendor/lib/libmm-omxcore.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
--vendor/lib/libplatformconfig.so
 vendor/lib64/libc2dcolorconvert.so
 vendor/lib64/libmm-omxcore.so
 vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
--vendor/lib64/libplatformconfig.so
 
 # Motorola
 
