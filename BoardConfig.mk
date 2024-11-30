@@ -107,7 +107,7 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     odm_dlkm \
     system \
     system_ext \
-    system_dlkm
+    system_dlkm \
     vendor_dlkm \
     vendor
 BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 9122611200

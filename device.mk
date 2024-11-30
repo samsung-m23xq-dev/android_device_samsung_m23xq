@@ -65,6 +65,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml
 
+# API
+PRODUCT_SHIPPING_API_LEVEL := 31
+
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
