@@ -354,6 +354,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.samsung
+
 # Usb
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-qti
