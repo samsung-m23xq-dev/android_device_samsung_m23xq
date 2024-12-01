@@ -1004,7 +1004,6 @@ vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/permissions/vendor.samsung.hardware.telephony.gsm.xml
 vendor/etc/seccomp_policy/samsung.software.media.c2-base-policy
 vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy
--vendor/etc/vintf/manifest/power-samsung.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml
