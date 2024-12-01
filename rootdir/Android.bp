@@ -96,12 +96,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qti.media.sh",
-    src: "bin/init.qti.media.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.qti.qcv.sh",
     src: "bin/init.qti.qcv.sh",
     vendor: true,

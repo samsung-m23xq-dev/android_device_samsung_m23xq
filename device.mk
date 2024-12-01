@@ -375,7 +375,6 @@ PRODUCT_PACKAGES += \
     init.qti.chg_policy.sh \
     init.qti.dcvs.sh \
     init.qti.early_init.sh \
-    init.qti.media.sh \
     init.qti.qcv.sh \
     install-recovery.sh \
     qca6234-service.sh

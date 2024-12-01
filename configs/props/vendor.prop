@@ -151,6 +151,8 @@ ro.netflix.bsp_rev=Q7250-19133-1
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+vendor.media.target_variant=_lito
+ro.netflix.bsp_rev=Q7250-19133-1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
