@@ -237,7 +237,7 @@ PRODUCT_PACKAGES += \
     liboffloadhal
 
 # Keymaster
-PRODUCT_COPY_FILES += \
+PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service \
     libkeymaster4.vendor \
     libkeymaster4_1support.vendor \
@@ -245,7 +245,7 @@ PRODUCT_COPY_FILES += \
     libkeymaster_messages.vendor \
     libkeymaster_portable.vendor \
     libkeystore-engine-wifi-hidl.vendor \
-    libkeystore-wifi-hidl.so.vendor
+    libkeystore-wifi-hidl.so.vendor \
     libpuresoftkeymasterdevice.so.vendor
 
 # Keylayout
@@ -406,6 +406,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung \
     hardware/google/interfaces \
     hardware/google/pixel
+
+# TimeKeep
+PRODUCT_PACKAGES += \
+    TimeKeep
 
 # Touch
 PRODUCT_PACKAGES += \
