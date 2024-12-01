@@ -105,8 +105,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
-    libbluetooth_audio_session.vendor \
-    libtinycompress.vendor \
+    libbluetooth_audio_session \
+    libtinycompress \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor
 
 PRODUCT_COPY_FILES += \
@@ -129,12 +129,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
-
-# Capability
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.hardware.capabilityconfigstore@1.0-impl.vendor \
-    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -173,7 +167,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator@1.0.vendor \
     vendor.qti.hardware.display.allocator@3.0.vendor \
     vendor.qti.hardware.display.allocator@4.0.vendor \
-    vendor.qti.hardware.display.composer@1.0vendor \
+    vendor.qti.hardware.display.composer@1.0.vendor \
     vendor.qti.hardware.display.composer@2.0.vendor \
     vendor.qti.hardware.display.composer@3.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
@@ -185,7 +179,7 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    libdrmclearkeyplugin.vendor
+    libdrmclearkeyplugin
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -244,9 +238,9 @@ PRODUCT_PACKAGES += \
     libkeymaster4support.vendor \
     libkeymaster_messages.vendor \
     libkeymaster_portable.vendor \
-    libkeystore-engine-wifi-hidl.vendor \
-    libkeystore-wifi-hidl.so.vendor \
-    libpuresoftkeymasterdevice.so.vendor
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl \
+    libpuresoftkeymasterdevice
 
 # Keylayout
 PRODUCT_COPY_FILES += \
