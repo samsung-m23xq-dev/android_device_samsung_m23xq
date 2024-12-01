@@ -309,6 +309,12 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# Radio
+PRODUCT_PACKAGES += \
+    vendor.samsung.hardware.radio@2.0 \
+    vendor.samsung.hardware.radio@2.1 \
+    vendor.samsung.hardware.radio@2.2
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.class_main.sh \
