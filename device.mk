@@ -103,6 +103,12 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
 
+PRODUCT_PACKAGES += \
+    libaudiofoundation.vendor \
+    libbluetooth_audio_session.vendor \
+    libtinycompress.vendor \
+    vendor.qti.hardware.bluetooth_audio@2.1.vendor
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
@@ -124,18 +130,27 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
+# Capability
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.capabilityconfigstore@1.0-service \
+    vendor.qti.hardware.capabilityconfigstore@1.0-impl.vendor \
+    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
+
 # Camera
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libgui_vendor \
     libstdc++_vendor \
+    vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
+    gralloc.default \
+    gralloc.lito \
     libdisplayconfig.qti \
     libqdMetaData \
     libsdmcore \
@@ -155,11 +170,22 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@4.0.vendor
 
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.display.allocator@1.0.vendor \
+    vendor.qti.hardware.display.allocator@3.0.vendor \
+    vendor.qti.hardware.display.allocator@4.0.vendor \
+    vendor.qti.hardware.display.composer@1.0vendor \
+    vendor.qti.hardware.display.composer@2.0.vendor \
+    vendor.qti.hardware.display.composer@3.0.vendor \
+    vendor.qti.hardware.display.mapperextensions@1.0.vendor \
+    vendor.qti.hardware.display.mapperextensions@1.1.vendor
+
+PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm-service.clearkey
+    android.hardware.drm-service.clearkey \
+    libdrmclearkeyplugin.vendor
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -168,6 +194,10 @@ PRODUCT_PACKAGES += \
 # FastCharging
 PRODUCT_PACKAGES += \
      vendor.lineage.fastcharge@1.0-service.m23xq
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service
 
 # Gnss
 PRODUCT_PACKAGES += \
@@ -205,6 +235,18 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     libipanat \
     liboffloadhal
+
+# Keymaster
+PRODUCT_COPY_FILES += \
+    android.hardware.keymaster@4.0-service \
+    libkeymaster4.vendor \
+    libkeymaster4_1support.vendor \
+    libkeymaster4support.vendor \
+    libkeymaster_messages.vendor \
+    libkeymaster_portable.vendor \
+    libkeystore-engine-wifi-hidl.vendor \
+    libkeystore-wifi-hidl.so.vendor
+    libpuresoftkeymasterdevice.so.vendor
 
 # Keylayout
 PRODUCT_COPY_FILES += \
@@ -289,7 +331,8 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.pixel-libperfmgr
+    android.hardware.power-service.pixel-libperfmgr \
+    power.default
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
@@ -355,6 +398,7 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
+    android.hardware.sensors@2.0-ScopedWakelock \
     libsensorndkbridge
 
 # Soong namespaces

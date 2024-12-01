@@ -45,14 +45,12 @@ vendor/lib/libadm.so
 vendor/lib/libaudcal.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudiofoundation.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudio_soundtrigger.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
-vendor/lib/libtinycompress.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libaudioeffectoffload.so
 vendor/lib/soundfx/libaudiosaplus_sec.so
@@ -67,10 +65,8 @@ vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudiofoundation.so
 vendor/lib64/libaudioparsers.so
 vendor/lib64/libqtigef.so
-vendor/lib64/libtinycompress.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libaudioeffectoffload.so
 vendor/lib64/soundfx/libaudiosaplus_sec.so
@@ -107,12 +103,10 @@ vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so
-vendor/lib/libbluetooth_audio_session.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbt-hidlclient.so
 vendor/lib/libbtnv.so
 vendor/lib/libsehbluetooth_audio_session.so
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.1.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
@@ -126,13 +120,10 @@ vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so
-vendor/lib64/libbluetooth_audio_session.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsehbluetooth_audio_session.so
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.1.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
@@ -424,7 +415,6 @@ vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvdis_core.so
 vendor/lib64/libvdis_interface.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so
 vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so
@@ -452,14 +442,6 @@ vendor/lib64/libmmcamera_faceproc2.so
 
 # Charger
 vendor/bin/hvdcp_opti
-
-# Configstore
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
-vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 
 # DRM
 vendor/bin/qseecomd
@@ -537,55 +519,17 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # DRM-Widevine
 vendor/lib/libwvhidl.so
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
 # Display-Hardware
--vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
-vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.lito.so
-vendor/lib/libdisplaydebug.so
 vendor/lib/libdisplayqos.so
 vendor/lib/libdpps.so
-vendor/lib/libdrm.so
-vendor/lib/libdrmutils.so
-vendor/lib/libgralloccore.so
-vendor/lib/libgrallocutils.so
-vendor/lib/libqdutils.so
-vendor/lib/libqservice.so
-vendor/lib/libsdedrm.so
 vendor/lib/libsdm-colormgr-algo.so
 vendor/lib/libsdmextension.so
-vendor/lib/vendor.qti.hardware.display.allocator@1.0.so
-vendor/lib/vendor.qti.hardware.display.allocator@3.0.so
-vendor/lib/vendor.qti.hardware.display.composer@1.0.so
-vendor/lib/vendor.qti.hardware.display.composer@2.0.so
-vendor/lib/vendor.qti.hardware.display.mapperextensions@1.0.so
-vendor/lib/vendor.qti.hardware.display.mapperextensions@1.1.so
-vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/gralloc.lito.so
-vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdpps.so
-vendor/lib64/libdrm.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdutils.so
-vendor/lib64/libqservice.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdmextension.so
-vendor/lib64/vendor.qti.hardware.display.allocator@1.0.so
-vendor/lib64/vendor.qti.hardware.display.allocator@3.0.so
-vendor/lib64/vendor.qti.hardware.display.allocator@4.0.so
-vendor/lib64/vendor.qti.hardware.display.composer@1.0.so
-vendor/lib64/vendor.qti.hardware.display.composer@2.0.so
-vendor/lib64/vendor.qti.hardware.display.composer@3.0.so
-vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so
-vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so
 
 # Dolby
 vendor/etc/dax3_media_codecs_dolby_audio.xml
@@ -649,7 +593,6 @@ vendor/bin/xtra-daemon
 vendor/etc/cacert_location.pem
 vendor/etc/xtra_root_cert.pem
 vendor/lib/libdataitems.so
-vendor/lib/libgeofencing.so
 vendor/lib/libizat_client_api.so
 vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
@@ -665,9 +608,7 @@ vendor/lib/vendor.qti.gnss@2.0.so
 vendor/lib/vendor.qti.gnss@2.1.so
 vendor/lib/vendor.qti.gnss@3.0.so
 vendor/lib/vendor.qti.gnss@4.0.so
-vendor/lib64/libbatching.so
 vendor/lib64/libdataitems.so
-vendor/lib64/libgeofencing.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/liblbs_core.so
@@ -687,16 +628,12 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 
 # GPS-Hardware
 vendor/lib/libgarden.so
-vendor/lib/libgnss.so
 vendor/lib/libgnsspps.so
 vendor/lib64/libgarden.so
-vendor/lib64/libgnss.so
 vendor/lib64/libgnsspps.so
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 vendor/lib/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.mdfpp.so
@@ -755,21 +692,10 @@ vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
 # Keymaster
-vendor/bin/hw/android.hardware.keymaster@4.0-service
 vendor/bin/vendor.samsung.hardware.security.fkeymaster-service
-vendor/etc/init/android.hardware.keymaster@4.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc
-vendor/etc/permissions/android.hardware.hardware_keystore.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.security.fkeymaster-service.xml
-vendor/lib64/libkeymaster4.so
-vendor/lib64/libkeymaster4support.so
-vendor/lib64/libkeymaster4_1support.so
 vendor/lib64/libkeymaster_helper.so
-vendor/lib64/libkeymaster_messages.so
-vendor/lib64/libkeymaster_portable.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/libpuresoftkeymasterdevice.so
 vendor/lib64/libskeymaster4device.so
 vendor/lib64/vendor.samsung.hardware.security.fkeymaster-V1-ndk_platform.so
 
@@ -853,12 +779,8 @@ vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 
 # Media-Hardware
-vendor/lib/libc2dcolorconvert.so
-vendor/lib/libmm-omxcore.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib64/libc2dcolorconvert.so
-vendor/lib64/libmm-omxcore.so
 vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
 
@@ -914,8 +836,6 @@ vendor/lib64/vendor.display.postproc@1.0.so
 # Power-Hardware
 vendor/bin/hw/android.hardware.power.samsung-service
 vendor/etc/init/power-default-sec.rc
-vendor/lib/hw/power.default.so
-vendor/lib64/hw/power.default.so
 
 # QMI
 vendor/bin/irsc_util
@@ -1061,9 +981,6 @@ vendor/bin/vendor.samsung.hardware.security.proca@2.0-service
 vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
 vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service
 vendor/etc/hdr_samsung_mx.key
-vendor/etc/init/hw/init.samsung.bsp.rc
-vendor/etc/init/hw/init.samsung.display.rc
-vendor/etc/init/hw/init.samsung.rc
 vendor/etc/init/init.audio.samsung.rc
 vendor/etc/init/samsung.software.media.c2@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.authfw@1.0-service.rc
@@ -1227,14 +1144,12 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/sns_reg_config
 
 # Sensors
-vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so
 vendor/lib/libsensorlistener.so
 vendor/lib/libsensorslog.so
 vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
 vendor/lib/sensors.grip.so
 vendor/lib/sensors.ssc.so
-vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
 vendor/lib64/libsensorlistener.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libssc.so
@@ -1284,14 +1199,10 @@ vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 -vendor/app/com.qualcomm.qti.gpudrivers.lito.api30/com.qualcomm.qti.gpudrivers.lito.api30.apk
 vendor/bin/add.pb
 vendor/bin/adpl
-vendor/bin/applypatch
 vendor/bin/argosd
 vendor/bin/athdiag
-vendor/bin/boringssl_self_test64
 vendor/bin/btcoex_cont_config
 vendor/bin/cass
-vendor/bin/checkpoint_gc
-vendor/bin/cplay
 vendor/bin/diag_callback_sample
 vendor/bin/diag_dci_sample
 vendor/bin/diag_klog
@@ -1322,7 +1233,6 @@ vendor/bin/pm_proxy_helper
 vendor/bin/ppd
 vendor/bin/qdcmss
 vendor/bin/qseecom_sample_client
-vendor/bin/secril_config_svc
 vendor/bin/secure_ui_sample_client
 vendor/bin/shsusrd
 vendor/bin/sigma_dut
@@ -1363,7 +1273,6 @@ vendor/etc/hyper/config_chipset.json
 vendor/etc/hyper/config_hyper_permission.json
 vendor/etc/hyper/config_vendor.json
 vendor/etc/init/argos.rc
-vendor/etc/init/boringssl_self_test.rc
 vendor/etc/init/btcoex_cont_config.rc
 vendor/etc/init/camera.unihal.rc
 vendor/etc/init/cass.rc
@@ -1378,7 +1287,6 @@ vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.avb.rc
 vendor/etc/init/init.qdmastats.rc
-vendor/etc/init/init.qti.media.rc
 vendor/etc/init/init.qti.qcv.rc
 vendor/etc/init/init.ramplus.rc
 vendor/etc/init/init.time_daemon.rc
@@ -1387,7 +1295,6 @@ vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/init.vendor.sysfw.rc
 vendor/etc/init/ipacm-diag.rc
-vendor/etc/init/ipacm.rc
 vendor/etc/init/ipa_fws.rc
 vendor/etc/init/lights-default-sec.rc
 vendor/etc/init/mutualex.rc
@@ -1414,12 +1321,10 @@ vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
-vendor/etc/init/vendor_flash_recovery.rc
 vendor/etc/init/wfdvndservice.rc
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_qcom.rc
 vendor/etc/init/wsm-service.rc
-vendor/etc/linker.config.pb
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lm/GameOptimizationFeature.xml
@@ -1535,9 +1440,6 @@ vendor/lib/libcacertclient.so
 vendor/lib/libcdfw.so
 vendor/lib/libcdfw_remote_api.so
 vendor/lib/libchilog.so
-vendor/lib/libcirrusspkrprot.so
-vendor/lib/libcodec2_simple_component.so
-vendor/lib/libcodec2_soft_common.so
 vendor/lib/libcodecsolutionhelper_vendor.so
 vendor/lib/libDeviceInfoProvider.so
 vendor/lib/libdiagjni.so
@@ -1553,18 +1455,14 @@ vendor/lib/libfocuspeaking_interface.so
 vendor/lib/libformatConverter.unifunc.so
 vendor/lib/libFrucSSMLib.so
 vendor/lib/libgpudataproducer.so
-vendor/lib/libgralloc.qti.so
-vendor/lib/libgrallocusage.so
 vendor/lib/libhandgesture.arcsoft.so
 vendor/lib/libhand_interaction.uniplugin@1.0.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libheifcapture.so
-vendor/lib/libhidltransport.so
 vendor/lib/libhigh_dynamic_range_bokeh.so
 vendor/lib/libHprVisualEffect.so
 vendor/lib/libhqm_hwparam.so
 vendor/lib/libhta_hexagon_runtime.so
-vendor/lib/libhwbinder.so
 vendor/lib/libhypermotion_core.so
 vendor/lib/libhypermotion_interface.so
 vendor/lib/libimagecodec_native.quram.so
@@ -1587,7 +1485,6 @@ vendor/lib/libOmxBlackBar.so
 vendor/lib/libOmxMpeghDecSw.so
 vendor/lib/libOmxMpeghEncSw.so
 vendor/lib/libopenvx.so
-vendor/lib/libopus.so
 vendor/lib/libpadm.so
 vendor/lib/libperfioctl.so
 vendor/lib/libpredeflicker_native.so
@@ -1615,7 +1512,6 @@ vendor/lib/libSEF.quram.so
 vendor/lib/libsegmentationeffect.uniplugin@1.0.so
 vendor/lib/libsegmentationeffect_capture.uniplugin@1.0.so
 vendor/lib/libsemnativecarrierfeature.so
-vendor/lib/libsfplugin_ccodec_utils.so
 vendor/lib/libshotsuggestion.so
 vendor/lib/libshotsuggestion_engines.so
 vendor/lib/libsmartfocus_interface.so
@@ -1631,15 +1527,9 @@ vendor/lib/libsoc_helper_jni.so
 vendor/lib/libspatializerparamstorage.so
 vendor/lib/libspeakercalibration.so
 vendor/lib/libssengine.uniplugin@1.0.so
-vendor/lib/libstagefright_amrnb_common.so
-vendor/lib/libstagefright_bufferpool@2.0.1.so
 vendor/lib/libstagefright_bufferqueue_helper_vendor.so
-vendor/lib/libstagefright_enc_common.so
-vendor/lib/libstagefright_flacdec.so
 vendor/lib/libstagefright_foundation_vendor.so
 vendor/lib/libstagefright_omx_vendor.so
-vendor/lib/libstagefright_softomx.so
-vendor/lib/libstagefright_softomx_plugin.so
 vendor/lib/libstagefright_soft_aacdec.so
 vendor/lib/libstagefright_soft_aacenc.so
 vendor/lib/libstagefright_soft_amrdec.so
@@ -1675,8 +1565,6 @@ vendor/lib/libvideobeauty.uniplugin@1.0.so
 vendor/lib/libvideobeauty_capture.uniplugin@1.0.so
 vendor/lib/libvideobeauty_interface.so
 vendor/lib/libVkLayer_q3dtools.so
-vendor/lib/libvorbisidec.so
-vendor/lib/libvpx.so
 vendor/lib/libwifi-hal.so
 vendor/lib/libwpa_drv_oem.so
 vendor/lib/lib_SoundBooster_ver1050.so
@@ -1699,7 +1587,6 @@ vendor/lib/vendor.qti.hardware.qseecom@1.0.so
 vendor/lib/vintf-codecsolution-V2-ndk_platform.so
 vendor/lib/vndk/libstagefright_omx_utils.so
 vendor/lib/vndk/libstagefright_xmlparser.so
-vendor/lib64/android.hardware.usb@1.3.so
 vendor/lib64/btaudio_offload_if.so
 vendor/lib64/carwatchdog_aidl_interface-V2-ndk_platform.so
 vendor/lib64/cdsp_face.so
@@ -1736,9 +1623,7 @@ vendor/lib64/libcodec2_sec_mp3dec.so
 vendor/lib64/libcodec2_sec_mp4vdec.so
 vendor/lib64/libcodec2_sec_soft_common.so
 vendor/lib64/libcodec2_sec_vc1dec.so
-vendor/lib64/libcodec2_simple_component.so
 vendor/lib64/libcodec2_soft_ac4dec.so
-vendor/lib64/libcodec2_soft_common.so
 vendor/lib64/libcodec2_soft_eac3dec.so
 vendor/lib64/libcodecsolutionhelper_vendor.so
 vendor/lib64/libdeccfg.so
@@ -1761,19 +1646,14 @@ vendor/lib64/libfocuspeaking.so
 vendor/lib64/libfocuspeaking_interface.so
 vendor/lib64/libformatConverter.unifunc.so
 vendor/lib64/libgpudataproducer.so
-vendor/lib64/libgralloc.qti.so
-vendor/lib64/libgrallocusage.so
 vendor/lib64/libhandgesture.arcsoft.so
 vendor/lib64/libhand_interaction.uniplugin@1.0.so
 vendor/lib64/libheifcapture.so
-vendor/lib64/libhidltransport.so
 vendor/lib64/libhigh_dynamic_range_bokeh.so
-vendor/lib64/libhistogram.so
 vendor/lib64/libHprVisualEffect.so
 vendor/lib64/libhqm_hwparam.so
 vendor/lib64/libhta.so
 vendor/lib64/libhta_hexagon_runtime.so
-vendor/lib64/libhwbinder.so
 vendor/lib64/libhyper.so
 vendor/lib64/libhypermotion_core.so
 vendor/lib64/libhypermotion_interface.so
@@ -1833,7 +1713,6 @@ vendor/lib64/libsegmentationeffect_capture.uniplugin@1.0.so
 vendor/lib64/libSemDataProps.so
 vendor/lib64/libsemnativecarrierfeature.so
 vendor/lib64/libSemTelephonyProps.so
-vendor/lib64/libsfplugin_ccodec_utils.so
 vendor/lib64/libshotsuggestion.so
 vendor/lib64/libshotsuggestion_engines.so
 vendor/lib64/libsmartfocus_interface.so
@@ -1850,15 +1729,11 @@ vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libsocial_image_enhancement.uniplugin@1.0.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/libsoc_helper_jni.so
-vendor/lib64/libsoft_attestation_cert.so
 vendor/lib64/libsomxcmn.so
 vendor/lib64/libspatializerparamstorage.so
 vendor/lib64/libspeakercalibration.so
 vendor/lib64/libssengine.uniplugin@1.0.so
-vendor/lib64/libstagefright_bufferpool@2.0.1.so
-vendor/lib64/libstagefright_flacdec.so
 vendor/lib64/libstagefright_foundation_vendor.so
-vendor/lib64/libstagefright_softomx.so
 vendor/lib64/libstork_shared.so
 vendor/lib64/libsume_core.so
 vendor/lib64/libsume_imgp.so
