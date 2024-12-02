@@ -6,6 +6,7 @@
 
 DEVICE_PATH := device/samsung/m23xq
 
+AB_OTA_UPDATER := false
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
