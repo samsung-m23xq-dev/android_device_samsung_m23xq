@@ -137,6 +137,9 @@ TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_ODM_DLKM := odm_dlkm
 
+BOARD_ROOT_EXTRA_FOLDERS := \
+    efs
+
 ifeq ($(PRODUCT_SYSTEM_PARTITIONS_FILE_SYSTEM_TYPE),ext4)
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 endif
