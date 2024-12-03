@@ -969,7 +969,6 @@ vendor/bin/hw/vendor.samsung.hardware.tlc.mpos_tui@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service
 vendor/bin/vendor.samsung.hardware.security.proca@2.0-service
-vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
 vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service
 vendor/etc/hdr_samsung_mx.key
 vendor/etc/init/init.audio.samsung.rc
@@ -1056,7 +1055,6 @@ vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.media.converter-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
 vendor/lib64/vendor.samsung.hardware.security.skpm@1.0.so
-vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so
 vendor/lib64/vendor.samsung.hardware.snap-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.0.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.1.so
@@ -1225,7 +1223,6 @@ vendor/bin/test_diag
 vendor/bin/test_model.json
 vendor/bin/time_client
 vendor/bin/utility_cache_test.tflite
-vendor/bin/vaultkeeperd
 vendor/bin/vendor_cmd_tool
 vendor/bin/wifilearner
 vendor/bin/wvkprov
@@ -1288,7 +1285,6 @@ vendor/etc/init/snaplite_utility.rc
 vendor/etc/init/snap_utility.rc
 vendor/etc/init/ssgtzd.rc
 vendor/etc/init/tloc_daemon.rc
-vendor/etc/init/vaultkeeper_common.rc
 vendor/etc/init/vendor.qti.adsprpc-service.rc
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
