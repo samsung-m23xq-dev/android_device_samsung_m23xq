@@ -969,7 +969,6 @@ vendor/bin/hw/vendor.samsung.hardware.tlc.kg@1.1-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.mpos_tui@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service
-vendor/bin/vendor.samsung.hardware.security.engmode@1.0-service
 vendor/bin/vendor.samsung.hardware.security.proca@2.0-service
 vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
 vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service
@@ -979,7 +978,6 @@ vendor/etc/init/samsung.software.media.c2@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc
 vendor/etc/init/vendor.samsung.hardware.snap-default.rc
@@ -1060,7 +1058,6 @@ vendor/lib64/vendor.samsung.hardware.hqm@1.0.so
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.media.converter-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
-vendor/lib64/vendor.samsung.hardware.security.engmode@1.0.so
 vendor/lib64/vendor.samsung.hardware.security.skpm@1.0.so
 vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov-V1-ndk_platform.so
@@ -1534,7 +1531,6 @@ vendor/lib/libstagefright_soft_rawdec.so
 vendor/lib/libstagefright_soft_vorbisdec.so
 vendor/lib/libstagefright_soft_vpxdec.so
 vendor/lib/libstagefright_soft_vpxenc.so
-vendor/lib/libstork_shared.so
 vendor/lib/libsuper_night_interface.so
 vendor/lib/libsynergy_loc_api.so
 vendor/lib/libtad.so
@@ -1617,11 +1613,6 @@ vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libdk_vnd_service_core.so
 vendor/lib64/libdsms_vendor.so
 vendor/lib64/libengine_did.so
-vendor/lib64/libengmode15.so
-vendor/lib64/libengmode2lite.so
-vendor/lib64/libengmode_client.so
-vendor/lib64/libengmode_server.so
-vendor/lib64/libengmode_tlc.so
 vendor/lib64/libevent_finder.uniplugin@1.0.so
 vendor/lib64/libFaceService.so
 vendor/lib64/libface_landmark.arcsoft.so
@@ -1718,7 +1709,6 @@ vendor/lib64/libspatializerparamstorage.so
 vendor/lib64/libspeakercalibration.so
 vendor/lib64/libssengine.uniplugin@1.0.so
 vendor/lib64/libstagefright_foundation_vendor.so
-vendor/lib64/libstork_shared.so
 vendor/lib64/libsume_core.so
 vendor/lib64/libsume_imgp.so
 vendor/lib64/libsuper_night_interface.so
