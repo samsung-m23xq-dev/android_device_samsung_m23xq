@@ -964,7 +964,6 @@ vendor/bin/hw/vendor.samsung.hardware.tlc.hdm@1.1-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.kg@1.1-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.mpos_tui@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service
 vendor/etc/hdr_samsung_mx.key
 vendor/etc/init/init.audio.samsung.rc
@@ -978,7 +977,6 @@ vendor/etc/init/vendor.samsung.hardware.tlc.hdm@1.1-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.kg@1.1-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.mpos_tui@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.ucm@2.0-service.rc
 vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/permissions/vendor.samsung.hardware.telephony.gsm.xml
@@ -1060,8 +1058,6 @@ vendor/lib64/vendor.samsung.hardware.tlc.kg@1.0.so
 vendor/lib64/vendor.samsung.hardware.tlc.kg@1.1.so
 vendor/lib64/vendor.samsung.hardware.tlc.mpos_tui@1.0-impl.so
 vendor/lib64/vendor.samsung.hardware.tlc.mpos_tui@1.0.so
-vendor/lib64/vendor.samsung.hardware.tlc.payment@1.0-impl.so
-vendor/lib64/vendor.samsung.hardware.tlc.payment@1.0.so
 vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0-impl.so
 vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0.so
 
