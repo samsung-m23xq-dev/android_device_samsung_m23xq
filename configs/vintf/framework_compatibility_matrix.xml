@@ -134,14 +134,6 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.authfw</name>
-    <version>1.0</version>
-    <interface>
-        <name>ISehAuthenticationFramework</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
     <name>vendor.samsung.hardware.bluetooth.a2dp</name>
     <version>1.0</version>
     <interface>

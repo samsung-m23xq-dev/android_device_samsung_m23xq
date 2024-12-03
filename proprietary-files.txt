@@ -951,11 +951,9 @@ vendor/lib/libsubsystem_control.so
 vendor/lib64/libsubsystem_control.so
 
 # Samsung
-vendor/apex/com.samsung.android.authfw.ta.preload.apex
 vendor/apex/com.samsung.android.camera.unihal.signed.apex
 vendor/apex/com.samsung.android.wifi.broadcom.signed.apex
 vendor/bin/hw/samsung.software.media.c2@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.authfw@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.hyper-service
 vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service
@@ -978,7 +976,6 @@ vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service
 vendor/etc/hdr_samsung_mx.key
 vendor/etc/init/init.audio.samsung.rc
 vendor/etc/init/samsung.software.media.c2@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.authfw@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc
@@ -998,7 +995,6 @@ vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/permissions/vendor.samsung.hardware.telephony.gsm.xml
 vendor/etc/seccomp_policy/samsung.software.media.c2-base-policy
 vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy
--vendor/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_30.xml
@@ -1060,7 +1056,6 @@ vendor/lib64/lib_SoundAlive_play_plus_ver400.so
 vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/vendor.samsung.frameworks.security.dsms-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so
-vendor/lib64/vendor.samsung.hardware.authfw@1.0.so
 vendor/lib64/vendor.samsung.hardware.hqm@1.0.so
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.media.converter-V1-ndk_platform.so
