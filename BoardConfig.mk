@@ -135,7 +135,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_ODM := odm
 
 BOARD_ROOT_EXTRA_FOLDERS := \
-    efs
+    efs \
+    metadata
 
 ifeq ($(PRODUCT_SYSTEM_PARTITIONS_FILE_SYSTEM_TYPE),ext4)
 -include vendor/lineage/config/BoardConfigReservedSize.mk
