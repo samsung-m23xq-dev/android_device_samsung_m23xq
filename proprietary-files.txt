@@ -957,7 +957,6 @@ vendor/bin/hw/samsung.software.media.c2@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.hyper-service
 vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.snap-service
 vendor/bin/hw/vendor.samsung.hardware.sysinput@1.3-service
 vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
@@ -972,7 +971,6 @@ vendor/etc/init/init.audio.samsung.rc
 vendor/etc/init/samsung.software.media.c2@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.snap-default.rc
 vendor/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc
 vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
@@ -1047,7 +1045,6 @@ vendor/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so
 vendor/lib64/vendor.samsung.hardware.hqm@1.0.so
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.media.converter-V1-ndk_platform.so
-vendor/lib64/vendor.samsung.hardware.security.skpm@1.0.so
 vendor/lib64/vendor.samsung.hardware.snap-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.0.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.1.so
@@ -1664,7 +1661,6 @@ vendor/lib64/libsecfr_model.so
 vendor/lib64/libsecnativefeature.so
 vendor/lib64/libsecril-client.so
 vendor/lib64/libsecure_storage.so
-vendor/lib64/libsec_skpmHalTlc.so
 vendor/lib64/libSEF.quram.so
 vendor/lib64/libsegmentationeffect.uniplugin@1.0.so
 vendor/lib64/libsegmentationeffect_capture.uniplugin@1.0.so
