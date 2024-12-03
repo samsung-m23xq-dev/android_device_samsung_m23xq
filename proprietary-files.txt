@@ -963,7 +963,6 @@ vendor/bin/hw/vendor.samsung.hardware.authfw@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.hyper-service
 vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.widevine.keyprov-service
@@ -986,7 +985,6 @@ vendor/etc/init/samsung.software.media.c2@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.authfw@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc
@@ -1070,7 +1068,6 @@ vendor/lib64/vendor.samsung.hardware.authfw@1.0.so
 vendor/lib64/vendor.samsung.hardware.hqm@1.0.so
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.media.converter-V1-ndk_platform.so
-vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so
 vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
 vendor/lib64/vendor.samsung.hardware.security.engmode@1.0.so
 vendor/lib64/vendor.samsung.hardware.security.skpm@1.0.so
