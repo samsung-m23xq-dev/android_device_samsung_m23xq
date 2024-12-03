@@ -172,8 +172,8 @@ prebuilt_etc {
 
 // fstab
 prebuilt_etc {
-    name: "fstab.qcom",
-    src: "etc/fstab.qcom",
+    name: "fstab.default",
+    src: "etc/fstab.default",
     ramdisk_available: true,
     vendor: true,
 }

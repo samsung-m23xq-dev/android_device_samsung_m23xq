@@ -13,13 +13,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# File System
-ifeq ($(WITH_GMS),true)
-PRODUCT_SYSTEM_PARTITIONS_FILE_SYSTEM_TYPE ?= erofs
-else
-PRODUCT_SYSTEM_PARTITIONS_FILE_SYSTEM_TYPE ?= ext4
-endif
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
@@ -381,8 +374,8 @@ PRODUCT_PACKAGES += \
     qca6234-service.sh
 
 PRODUCT_PACKAGES += \
-    fstab.qcom \
-    fstab.qcom.ramdisk \
+    fstab.default \
+    fstab.default.ramdisk \
     init.m23xq.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
