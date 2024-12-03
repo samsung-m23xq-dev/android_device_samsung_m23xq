@@ -967,7 +967,6 @@ vendor/bin/hw/vendor.samsung.hardware.tlc.kg@1.1-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.mpos_tui@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service
-vendor/bin/vendor.samsung.hardware.security.proca@2.0-service
 vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service
 vendor/etc/hdr_samsung_mx.key
 vendor/etc/init/init.audio.samsung.rc
