@@ -406,7 +406,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/samsung \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    hardware/qcom-caf/common/libqti-perfd-client
 
 # TimeKeep
 PRODUCT_PACKAGES += \
