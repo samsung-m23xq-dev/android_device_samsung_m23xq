@@ -216,14 +216,6 @@
         <instance>default</instance>
     </interface>
 </hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.security.wsm</name>
-    <version>1.0</version>
-    <interface>
-        <name>ISehWsm</name>
-        <instance>default</instance>
-    </interface>
-</hal>
 <hal format="aidl" optional="true">
     <name>vendor.samsung.hardware.snap</name>
     <interface>

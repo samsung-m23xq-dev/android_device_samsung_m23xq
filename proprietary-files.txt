@@ -967,7 +967,6 @@ vendor/bin/hw/vendor.samsung.hardware.tlc.kg@1.1-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.mpos_tui@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service
-vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service
 vendor/etc/hdr_samsung_mx.key
 vendor/etc/init/init.audio.samsung.rc
 vendor/etc/init/samsung.software.media.c2@1.0-service.rc
@@ -1028,7 +1027,6 @@ vendor/lib64/libDLInterface.camera.samsung.so
 vendor/lib64/libEventFinder.camera.samsung.so
 vendor/lib64/libexifa.camera.samsung.so
 vendor/lib64/libFace_Landmark_API.camera.samsung.so
-vendor/lib64/libhal.wsm.samsung.so
 vendor/lib64/libHandGesture.camera.samsung.so
 vendor/lib64/libHDRVerifier_v1.camera.samsung.so
 vendor/lib64/libHprFace_GAE_api.camera.samsung.so
@@ -1292,7 +1290,6 @@ vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/wfdvndservice.rc
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_qcom.rc
-vendor/etc/init/wsm-service.rc
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lm/GameOptimizationFeature.xml
@@ -1721,7 +1718,6 @@ vendor/lib64/libVkLayer_q3dtools.so
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libvkservice.so
 vendor/lib64/libwpa_drv_oem.so
-vendor/lib64/libwsmd_functions.so
 vendor/lib64/lib_SoundBooster_ver1050.so
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
