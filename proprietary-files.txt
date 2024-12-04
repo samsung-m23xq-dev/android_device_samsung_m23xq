@@ -830,7 +830,6 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # Power-Hardware
-vendor/bin/hw/android.hardware.power.samsung-service
 vendor/etc/init/power-default-sec.rc
 
 # QMI
