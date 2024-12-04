@@ -383,6 +383,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.default \
     fstab.default.ramdisk \
+    fstab.zram \
     init.m23xq.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
