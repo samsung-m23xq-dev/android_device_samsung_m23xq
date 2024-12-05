@@ -260,7 +260,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.sdm710
+    vendor.lineage.livedisplay@2.1-service.m23xq
 
 # Media
 PRODUCT_PACKAGES += \
