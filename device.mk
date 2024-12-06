@@ -200,7 +200,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service
 
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc
+    $(LOCAL_PATH)/configs/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc
 
 # Gnss
 PRODUCT_PACKAGES += \
