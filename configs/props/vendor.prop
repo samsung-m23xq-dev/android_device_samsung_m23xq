@@ -147,6 +147,9 @@ persist.vendor.dpmhalservice.enable=1
 drm.service.enabled=true
 ro.netflix.bsp_rev=Q7250-19133-1
 
+# Gatekeeper
+ro.hardware.gatekeeper=mdfpp
+
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
@@ -210,7 +213,6 @@ ro.crypto.metadata_init_delete_all_keys.enabled=false
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.frp.pst=/dev/block/persistent
 ro.hardware.chipname=SM7225
-ro.hardware.gatekeeper=mdfpp
 ro.hardware.keystore=mdfpp
 ro.hardware.keystore_desede=true
 ro.incremental.enable=1

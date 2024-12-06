@@ -630,8 +630,6 @@ vendor/lib64/libgnsspps.so
 
 # Gatekeeper
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/android.hardware.gatekeeper@1.0-impl.so
-vendor/lib64/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.mdfpp.so
 
 # Graphics
